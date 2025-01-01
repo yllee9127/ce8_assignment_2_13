@@ -44,7 +44,7 @@ Reference: The definitive guide to using Terraform with the Serverless Framework
 
 Question 6 - Are there scenarios where using both together might be beneficial?
 
-Answer - If there is shared infrastructure (for example, a shared database) and a few Serverless applications that rely on the shared infrastructure (for example, the Serverless applications create tables in the shared database). In this case, Terraform can be used to manage the shard infrastructure and Serverless Framework can be used for managing the Serverless applications, for examples, application deployment and teardown. 
+Answer - If there is shared infrastructure (for example, a shared database) and a few Serverless applications that rely on the shared infrastructure (for example, the Serverless applications create tables in the shared database). In this case, Terraform can be used to manage the shared infrastructure and Serverless Framework can be used to manage the Serverless applications, for example, application deployment and teardown. 
 
 Reference: The definitive guide to using Terraform with the Serverless Framework (https://www.serverless.com/blog/definitive-guide-terraform-serverless)
 
